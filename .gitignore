@@ -1,0 +1,68 @@
+# Local Codex/app workspace
+/work/
+/outputs/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.token
+credentials.*
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and tool output
+build/
+dist/
+out/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Crash, sanitizer, fuzzing, and large captures
+core
+core.*
+*.dmp
+*.core
+asan.*
+ubsan.*
+sanitizer-raw/
+fuzz/crashes/raw/
+fuzz/artifacts/raw/
+pcaps/raw/
+*.pcap.tmp
+*.pcapng.tmp
+
+# Local experiment data and logs
+experiments/results/local/
+data/local/
+artifacts/local/
+logs/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
