@@ -49,9 +49,11 @@ attacker node, and a security-analysis environment. See
 ## Getting started
 
 1. Read [PROJECT_STATE.md](PROJECT_STATE.md) for the current phase and next actions.
-2. Run `powershell -ExecutionPolicy Bypass -File scripts/doctor.ps1`.
-3. Read only the task-relevant documents linked from [AGENTS.md](AGENTS.md).
-4. Create experiments from [experiments/TEMPLATE.md](experiments/TEMPLATE.md).
+2. Review [docs/setup/LOCAL_FEASIBILITY.md](docs/setup/LOCAL_FEASIBILITY.md) before
+   changing the local environment or planning heavy workloads.
+3. Run `powershell -ExecutionPolicy Bypass -File scripts/doctor.ps1`.
+4. Read only the task-relevant documents linked from [AGENTS.md](AGENTS.md).
+5. Create experiments from [experiments/TEMPLATE.md](experiments/TEMPLATE.md).
 
 Project Codex defaults are in `.codex/config.toml` and apply only when this
 repository is trusted. The requested defaults are GPT-5.6 Sol, medium reasoning,

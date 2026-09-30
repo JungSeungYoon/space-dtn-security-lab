@@ -13,6 +13,9 @@ narrowly attributable to the cited source; notes and hypotheses stay separate.
 | Codex config basics | https://learn.chatgpt.com/docs/config-file/config-basic | OpenAI documentation | 2026-10-01 | Project Codex setup | Project `.codex/config.toml` is loaded only for trusted projects | Settings remain subject to higher-priority requirements |
 | Connecting GitHub to ChatGPT | https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt | OpenAI Help Center | 2026-10-01 | ChatGPT repository access | Authorized repositories are retrieved on demand; GitHub access is read-only for analysis | Availability depends on plan/product surface |
 | Projects in ChatGPT | https://help.openai.com/en/articles/10169521-projects-in-chatgpt | OpenAI Help Center | 2026-10-01 | Project setup and chat continuity | Project instructions apply within a project; eligible chats can be moved into a project | UI availability can vary |
+| NASA/JPL ION-DTN | https://github.com/nasa-jpl/ION-DTN | Official source repository | 2026-10-01 | Authoritative implementation source | Linux is supported; ION Open Source is the full research-oriented suite | Pin a release tag before analysis |
+| ION Quick Start Guide | https://github.com/nasa-jpl/ION-DTN/blob/integration/site-docs/docs/quick-start-guide.md | Official build/run documentation | 2026-10-01 | Build dependencies and local topology support | Documents Automake prerequisites and `ionrun` loopback, 2-node, and 3-node workflows | Use documentation matching the pinned release |
+| ION releases | https://github.com/nasa-jpl/ION-DTN/releases | Official release history | 2026-10-01 | Candidate baseline selection | `ion-open-source-4.2.0` is the current stable release shown | Record exact tag and commit when selected |
 
 ## Entry template
 
