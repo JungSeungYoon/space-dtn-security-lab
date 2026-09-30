@@ -17,10 +17,12 @@ Initial bootstrap / research preparation.
   template, safety policy, and local validation tools created.
 - Project-scoped Codex defaults prepared.
 - ChatGPT/Codex collaboration and ChatGPT Project setup guidance prepared.
+- Existing ChatGPT Project renamed to `Space DTN Security Lab`, project instructions
+  applied, and live GitHub read access to `PROJECT_STATE.md` verified.
 
 ## In Progress
 
-- User authorization of this repository in ChatGPT's GitHub connection.
+- None. Bootstrap is complete; the first research-phase task has not started.
 
 ## Current Questions
 
@@ -30,10 +32,9 @@ Initial bootstrap / research preparation.
 
 ## Next Actions
 
-1. Authorize the repository for ChatGPT and confirm read access.
-2. Select and record authoritative ION-DTN source/version information.
-3. Study the minimum DTN, BPv7, CBOR, BPSec, and ION-DTN foundations.
-4. Design the first local testbed plan before cloning or building ION-DTN.
+1. Select and record authoritative ION-DTN source/version information.
+2. Study the minimum DTN, BPv7, CBOR, BPSec, and ION-DTN foundations.
+3. Design the first local testbed plan before cloning or building ION-DTN.
 
 ## Known Problems
 
